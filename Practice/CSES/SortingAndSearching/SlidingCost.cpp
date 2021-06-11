@@ -33,50 +33,106 @@ const int N = 1e5+1;
 	* WRITE STUFF DOWN
 	* DON'T GET STUCK ON ONE APPROACH
 */
-void solve(){
-	int n, k;
-	cin >> n >> k;
-	vt<ll> arr(n);
-	for(auto &x : arr)
-		cin >> x;
-	ordered_set<ii> low, high;
-	ll sum_low = 0;
-	ll sum_high = 0;
 
-	rep(i, 0, k-2){
-		if(sz(low) == sz(high)){
-			low.insert(ii(arr[i], (ll)i));
-			sum_low += arr[i];
-		}
-		else{
-			sum_high += arr[i];
-			high.insert(ii(arr[i], i));
+struct Heap
+{
+	ordered_set<ii> arr;
+	ll sum = 0;
+
+	void push(ii x){
+		arr.insert(x);
+		sum += x.first;
+	}
+
+	void pop(ii x){
+		if(arr.find(x) != arr.end()){
+			arr.erase(x);
+			sum -= x.first;
 		}
 	}
 
-	int index = 0;
-	rep(i, k-1, n-1){
-		if(sz(low) == sz(high)){
-			low.insert(ii(arr[i], i));
-			sum_low += arr[i];
-		}
-		else{
-			sum_high += arr[i];
-			high.insert(ii(arr[i], i));
-		}
+	ii Min(){
+		return (*arr.find_by_order(0));	
+	}
 
-		ll median = (*low.rbegin()).first;
-		dbg(sz(low)) dbg(sz(high)) dbg(sum_low) dbg(sum_high) dbg(median) endln
-		// cout << (median*sz(low) - sum_low) + (sum_high - median*sz(high)) << " ";
+	ii Max(){
+		int n = sz(arr) - 1;
+		if(!arr.empty())
+			return (*arr.find_by_order(n));
+		return ii(-1, -1);
+	}
 
-		if(arr[index] > median){
-			sum_high -= arr[index];
-			high.erase(ii(arr[index], index));
+	bool empty(){
+		return sz(arr) == 0;
+	}
+
+	int size(){
+		return sz(arr);
+	}
+
+	void print(){
+		for(auto x : arr){
+			cout << x.first << " ";
+		}
+		cout << endl;
+	}
+};
+
+Heap MinHeap, MaxHeap;
+
+void solve(){
+
+	int n, k;
+
+	cin >> n >> k;
+	vt<int> arr(n);
+
+	rep(i, 0, k-1){
+		cin >> arr[i];	
+		if(MinHeap.empty() && MaxHeap.empty()){
+			MinHeap.push(ii(arr[i],i));
+
+		}else if (!MinHeap.empty() && MaxHeap.empty()){
+			ii temp = MinHeap.Max();
+			if(arr[i] >= temp.first){
+				MaxHeap.push(ii(arr[i],i));
+			}else{
+				MaxHeap.push(temp);
+				MinHeap.pop(temp);
+				MinHeap.push(ii(arr[i], i));
+			}
+
 		}else{
-			sum_low -= arr[index];
-			low.erase(ii(arr[index], index));
+
+			if(MinHeap.size() == MaxHeap.size()){
+				ii temp = MaxHeap.Min();
+				if(arr[i] >= temp.first){
+					MinHeap.push(temp);
+					MaxHeap.pop(temp);
+					MaxHeap.push( ii(arr[i], i) );
+				}else{
+					MinHeap.push( ii(arr[i], i) );	
+				}
+			}else{
+				ii temp = MinHeap.Max();
+				if(arr[i] >= temp.first)
+					MaxHeap.push( ii(arr[i], i) );
+				else{
+					MaxHeap.push(temp);
+					MinHeap.pop(temp);
+					MinHeap.push( ii(arr[i], i) );
+				}
+			}	
+
 		}
-		++index;
+	}
+
+	rep(i, k, n-1){
+		cin >> arr[i];
+		ii temp = MinHeap.Max();
+		cout << temp * MinHeap.size() - MinHeap.sum\
+				-temp * MaxHeap.size() + MaxHeap.sum;
+		break;
 	}
 
 }
