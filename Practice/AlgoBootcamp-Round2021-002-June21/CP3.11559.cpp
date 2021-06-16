@@ -29,8 +29,31 @@ void solve(){
 }
 
 int main(){
-	ios_base::sync_with_stdio(0);#include "template.h"
+	ios_base::sync_with_stdio(0);
 	cin.tie(0);
 	cout.tie(0);
-	solve();
+	int n, b, h, w;
+	while (cin >> n >> b >> h >> w){
+		ll min_cost = LLONG_MAX;
+
+		rep(i, 1, h){
+			ll price;
+			ll x;
+			bool ok = 0;
+			cin >> price;
+			rep(j, 1, w){
+				cin >> x;
+				if (x >= n)
+					ok = 1;
+			}
+			if (ok)
+			min_cost = min(min_cost, price * n);
+
+		}
+
+		if (min_cost > b)
+			cout << "stay home" << endl;
+		else 
+			cout << min_cost << endl;
+	}
 }

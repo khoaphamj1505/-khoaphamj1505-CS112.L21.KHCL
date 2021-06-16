@@ -25,12 +25,25 @@ const int N = 1e5+1;
 
 
 void solve(){
-	
+
+	vt<int> arr(3);
+	for(auto &x : arr)
+		cin >> x;
+
+	sort(all(arr));
+
+	cout << arr[1] << endl;
+
 }
 
 int main(){
-	ios_base::sync_with_stdio(0);#include "template.h"
+	ios_base::sync_with_stdio(0);
 	cin.tie(0);
 	cout.tie(0);
-	solve();
+	int t;
+	cin >> t;
+	rep(i, 1, t){
+		cout << "Case " << i <<": ";
+		solve();
+	}
 }

@@ -23,14 +23,20 @@ const int N = 1e5+1;
 	* DON'T GET STUCK ON ONE APPROACH
 */
 
-
-void solve(){
-	
-}
-
 int main(){
-	ios_base::sync_with_stdio(0);#include "template.h"
+	ios_base::sync_with_stdio(0);
 	cin.tie(0);
 	cout.tie(0);
-	solve();
+	int t;
+	cin >> t;
+	rep(it, 1, t){
+		cout << "Case " << it << ": ";
+		int n;
+		cin >> n;
+		vt<int> arr(n);
+		for(auto &x : arr)
+			cin >> x;
+		sort(rall(arr));
+		cout << arr[0] << endl;
+	} 
 }

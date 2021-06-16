@@ -23,14 +23,45 @@ const int N = 1e5+1;
 	* DON'T GET STUCK ON ONE APPROACH
 */
 
+int f = 1;
 
 void solve(){
-	
+	int n;
+	cin >> n;
+	if( n == 0){
+		f = 0;
+		return;
+	}
+
+	int x, y;
+	cin >> x >> y;
+
+	rep(i, 1, n){
+		int a, b;
+		cin >> a >> b;
+		a -= x;
+		b -= y;
+		if ( a* b == 0)
+			cout << "divisa" << endl;
+		else{
+			if ( a > 0 && b > 0)
+				cout << "NE" << endl;
+			if ( a < 0 && b > 0)
+				cout << "NO" << endl;
+			if (a < 0 && b < 0)
+				cout << "SO" << endl;
+			if (a > 0 && b < 0)
+				cout << "SE" << endl;
+		}
+	}
+
 }
 
 int main(){
-	ios_base::sync_with_stdio(0);#include "template.h"
+	ios_base::sync_with_stdio(0);
 	cin.tie(0);
 	cout.tie(0);
-	solve();
+	while(f){
+		solve();
+	}
 }

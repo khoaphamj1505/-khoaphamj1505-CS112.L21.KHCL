@@ -25,12 +25,23 @@ const int N = 1e5+1;
 
 
 void solve(){
-	
+	ll x, y;
+	cin >> x >> y;
+	ll ans = x -y;
+	if (ans > 0) 
+		cout << ">" << endl;
+	if(ans < 0)
+		cout << "<" << endl;
+	if(!ans)
+		cout << "=" << endl;	
 }
 
 int main(){
-	ios_base::sync_with_stdio(0);#include "template.h"
+	ios_base::sync_with_stdio(0);
 	cin.tie(0);
 	cout.tie(0);
-	solve();
+	int t;
+	cin >> t;
+	while(t--)
+		solve();
 }
