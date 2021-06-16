@@ -32,5 +32,7 @@ Làm bài tập qua KAHOOT
 - [ASSIGNMENT 4](https://github.com/khoaphamj1505/CS112.L21.KHCL/tree/main/ThucHanh/Assignment4)
    - [SỬA HÀNG RÀO](https://github.com/khoaphamj1505/CS112.L21.KHCL/blob/main/ThucHanh/Assignment4/SuaHangRao.ipynb)
    - [PHÂN SỐ](https://github.com/khoaphamj1505/CS112.L21.KHCL/blob/main/ThucHanh/Assignment4/PhanSo.ipynb)
-
+# Certificate
+- Competitive Programmer's Core Skills (https://github.com/khoaphamj1505/CS112.L21.KHCL/blob/main/Certificate/Coursera%20N44HM7TYZXT3.pdf) 
 `copyright © 2021 GOURP 4`
+
