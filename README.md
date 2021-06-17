@@ -31,5 +31,5 @@ Tên thành viên | MSSV | Github
 - CÁC KHÓA HỌC: [Certificate](https://github.com/khoaphamj1505/CS112.L21.KHCL/tree/main/Certificate)
 
 **BÀI TẬP VỀ NHÀ**
-[LINK BÀI TẬP](https://github.com/khoaphamj1505/CS112.L21.KHCL/tree/main/BTVN%20c%E1%BB%A7a%20nh%C3%B3m)
+- BÀI TẬP: [LINK](https://github.com/khoaphamj1505/CS112.L21.KHCL/tree/main/BTVN%20c%E1%BB%A7a%20nh%C3%B3m)
 
