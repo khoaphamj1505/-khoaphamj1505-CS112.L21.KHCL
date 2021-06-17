@@ -10,11 +10,7 @@ Tên thành viên | MSSV | Github
 ## MỞ ĐẦU:
    - CHỦ ĐỀ: **PHÂN TÍCH THUẬT TOÁN**
    - BÀI BÁO CÁO: [LINK TẢI CHI TIẾT](https://github.com/khoaphamj1505/CS112.L21.KHCL/blob/main/%C4%90%E1%BB%92%20%C3%81N%20CS112.L21.KHCL.pdf)
-   
-## BÀI TẬP VỀ NHÀ:
-
-[Làm bài tập qua KAHOOT](https://github.com/khoaphamj1505/CS112.L21.KHCL/tree/main/BTVN)
-
+   - BÀI TẬP VỀ NHÀ: [Làm bài tập qua KAHOOT](https://github.com/khoaphamj1505/CS112.L21.KHCL/tree/main/Project%20Analysis%20of%20algorithms/BTVN)
 
 # BÀI TẬP WECODE TUẦN
 
