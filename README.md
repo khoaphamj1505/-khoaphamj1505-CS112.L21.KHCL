@@ -8,9 +8,9 @@ Tên thành viên | MSSV | Github
    
 **BÁO CÁO THUYẾT TRÌNH**
 
-   - CHỦ ĐỀ: **PHÂN TÍCH THUẬT TOÁN**
-   - BÀI BÁO CÁO: [LINK TẢI CHI TIẾT](https://github.com/khoaphamj1505/CS112.L21.KHCL/blob/main/%C4%90%E1%BB%92%20%C3%81N%20CS112.L21.KHCL.pdf)
-   - BÀI TẬP VỀ NHÀ: [Làm bài tập qua KAHOOT](https://github.com/khoaphamj1505/CS112.L21.KHCL/tree/main/Project%20Analysis%20of%20algorithms/BTVN)
+   - **PHÂN TÍCH THUẬT TOÁN - ANALYSIS OF ALGORITHMS**
+   - [Slide thuyết trình](https://github.com/khoaphamj1505/CS112.L21.KHCL/blob/main/Project%20Analysis%20of%20algorithms/%C4%90%E1%BB%92%20%C3%81N%20CS112.L21.KHCL.pdf)
+   - [Bài tập về nhà](https://github.com/khoaphamj1505/CS112.L21.KHCL/tree/main/Project%20Analysis%20of%20algorithms/BTVN)
 
 **BÀI TẬP WECODE TUẦN**
 
@@ -28,8 +28,8 @@ Tên thành viên | MSSV | Github
    - [PHÂN SỐ](https://github.com/khoaphamj1505/CS112.L21.KHCL/blob/main/ThucHanh/Assignment4/PhanSo.ipynb)
 
 **CERTIFICATE**
-- [CÁC KHÓA HỌC](https://github.com/khoaphamj1505/CS112.L21.KHCL/tree/main/Certificate)
+> [CÁC KHÓA HỌC](https://github.com/khoaphamj1505/CS112.L21.KHCL/tree/main/Certificate)
 
 **BÀI TẬP VỀ NHÀ CỦA NHÓM 4**
-- [BÀI TẬP](https://github.com/khoaphamj1505/CS112.L21.KHCL/tree/main/BTVN%20c%E1%BB%A7a%20nh%C3%B3m)
+> [BÀI TẬP](https://github.com/khoaphamj1505/CS112.L21.KHCL/tree/main/BTVN%20c%E1%BB%A7a%20nh%C3%B3m)
 
