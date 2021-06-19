@@ -3,7 +3,7 @@
 **ĐỒ ÁN**
 
   - [Slide thuyết trình](https://github.com/khoaphamj1505/CS112.L21.KHCL/blob/main/Project%20Analysis%20of%20algorithms/%C4%90%E1%BB%92%20%C3%81N%20CS112.L21.KHCL.pdf)
-  - [Quá trình thuyết trình](https://github.com/khoaphamj1505/CS112.L21.KHCL/blob/main/Project%20Analysis%20of%20algorithms/Qu%C3%A1%20tr%C3%ACnh%20thuy%E1%BA%BFt%20tr%C3%ACnh)
+  - [Quá trình thuyết trình](https://github.com/khoaphamj1505/CS112.L21.KHCL/blob/main/Project%20Analysis%20of%20algorithms/Qu%C3%A1%20tr%C3%ACnh%20thuy%E1%BA%BFt%20tr%C3%ACnh.md)
    
 **BÀI TẬP VỀ NHÀ**
 
