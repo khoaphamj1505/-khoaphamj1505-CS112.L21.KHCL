@@ -10,7 +10,9 @@
   - [Câu hỏi Kahoot](https://github.com/khoaphamj1505/CS112.L21.KHCL/blob/main/Project%20Analysis%20of%20algorithms/BTVN/Question%20Of%20Kahoot.png)
   - [Kết quả](https://github.com/khoaphamj1505/CS112.L21.KHCL/blob/main/Project%20Analysis%20of%20algorithms/BTVN/Final%20Result.png)
 
-
+**BỔ SUNG SAU THUYẾT TRÌNH**
+  - [Nội dung bổ sung sau khi thuyết trình tại lớp](https://github.com/khoaphamj1505/CS112.L21.KHCL/blob/main/Project%20Analysis%20of%20algorithms/addition.md)
+  
 **TÀI LIỆU THAM KHẢO**
 
   - Introduction to Algorithms, 3rd Edition (The MIT Press) 3rd Edition by Thomas H. Cormen
