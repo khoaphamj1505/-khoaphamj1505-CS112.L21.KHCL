@@ -28,8 +28,8 @@ Tên thành viên | MSSV | Github
    - [PHÂN SỐ](https://github.com/khoaphamj1505/CS112.L21.KHCL/blob/main/ThucHanh/Assignment4/PhanSo.ipynb)
 
 **CERTIFICATE**
-- CÁC KHÓA HỌC: [Certificate](https://github.com/khoaphamj1505/CS112.L21.KHCL/tree/main/Certificate)
+- [CÁC KHÓA HỌC](https://github.com/khoaphamj1505/CS112.L21.KHCL/tree/main/Certificate)
 
-**BÀI TẬP VỀ NHÀ**
-- BÀI TẬP: [LINK](https://github.com/khoaphamj1505/CS112.L21.KHCL/tree/main/BTVN%20c%E1%BB%A7a%20nh%C3%B3m)
+**BÀI TẬP VỀ NHÀ CỦA NHÓM 4**
+- [BÀI TẬP](https://github.com/khoaphamj1505/CS112.L21.KHCL/tree/main/BTVN%20c%E1%BB%A7a%20nh%C3%B3m)
 
