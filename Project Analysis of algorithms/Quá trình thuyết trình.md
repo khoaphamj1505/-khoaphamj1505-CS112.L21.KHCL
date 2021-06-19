@@ -1,4 +1,5 @@
 
+
 I/ Các câu hỏi của các nhóm
 - Nhóm 1: Thuật toán có phải được thực hiện thông qua các bước không?
 - Nhóm A: 
