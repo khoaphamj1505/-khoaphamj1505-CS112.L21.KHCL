@@ -11,4 +11,4 @@
  
 **Các nhóm phát biểu tích cực**
 
-> Nhóm 1, Nhóm 10, Nhóm 5, Nhóm 7
+> Nhóm 1, Nhóm 10, Nhóm 5, Nhóm 7, Nhóm 3
